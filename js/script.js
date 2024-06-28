@@ -14,3 +14,11 @@ document.getElementById("risultato").innerText = `Il prezzo finale del biglietto
 function resetForm() {
     document.getElementById("risultato").innerText = "";
 }
+document.getElementById("ticketForm").onsubmit = function(event) {
+    event.preventDefault();
+    calcolaPrezzo();
+};
+
+document.getElementById("ticketForm").onreset = function() {
+    resetForm();
+};
