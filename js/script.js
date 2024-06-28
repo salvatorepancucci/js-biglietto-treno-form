@@ -9,3 +9,4 @@ if (eta < 18) {
 } else if (eta > 65) {
     prezzoTotale *= 0.6;
 }
+prezzoTotale = prezzoTotale.toFixed(2);
