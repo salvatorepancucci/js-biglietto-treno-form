@@ -11,3 +11,6 @@ if (eta < 18) {
 }
 prezzoTotale = prezzoTotale.toFixed(2);
 document.getElementById("risultato").innerText = `Il prezzo finale del biglietto è €${prezzoTotale}`;
+function resetForm() {
+    document.getElementById("risultato").innerText = "";
+}
