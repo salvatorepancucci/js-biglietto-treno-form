@@ -10,3 +10,4 @@ if (eta < 18) {
     prezzoTotale *= 0.6;
 }
 prezzoTotale = prezzoTotale.toFixed(2);
+document.getElementById("risultato").innerText = `Il prezzo finale del biglietto è €${prezzoTotale}`;
